@@ -1,0 +1,63 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.centrar{
+	text-align:center;
+	width: 100%;
+	height: 70px;
+}
+.centrar .imagen{
+	width: 300px;
+	height: 128px;
+	margin:0px auto;
+	background-image: url("https://i.ibb.co/ZTK4jcY/klipartz-com.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 35px;
+}
+
+.subtitulo{
+	text-align:center; 
+}
+.subtitulo h3{
+	margin:0px auto;
+}
+main{
+	width: 100%;
+}
+.container-list{
+	margin-right: 110px;
+	margin-left: 110px;
+	height:500px; 
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+main .container-list ul li{
+	list-style-type: none;
+}
+
+.container-list .container-logo{
+	width: 300px;
+	height: 500px;
+	padding-top: 100px;
+
+}
+.container-list .container-logo .logo{
+	width: 300px;
+	height: 400px;
+	background-size: contain;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/07/Wikipedia_logo_%28svg%29.svg");
+	background-repeat: no-repeat;
+
+}
+.container-list .list-left{
+	padding-top: 90px;
+}
+.container-list .list-left li{
+	margin: 30px;
+}
+.container-list .list-right{
+	padding-top: 90px;
+}
