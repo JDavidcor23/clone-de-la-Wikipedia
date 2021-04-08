@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-family: 'Noto Sans', sans-serif;
 }
 .centrar{
 	text-align:center;
@@ -24,40 +25,112 @@
 .subtitulo h3{
 	margin:0px auto;
 }
-main{
-	width: 100%;
+a{
+	text-decoration: none;
+	color: #3366cc;
+	font-size: 25px;
+	font-weight: bold;
 }
-.container-list{
-	margin-right: 110px;
-	margin-left: 110px;
-	height:500px; 
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-}
-main .container-list ul li{
-	list-style-type: none;
+a:hover{
+	border-bottom: 3px solid #3366cc;
 }
 
+main{
+	width: 100%;
+	height: 700px;
+}
+.container-list{
+	height:700px; 
+	display: flex;
+	justify-content: center;
+}
+
+/** imagen*/
 .container-list .container-logo{
-	width: 300px;
-	height: 500px;
-	padding-top: 100px;
+	width: 350px;
+	height: 600px;
+	
 
 }
 .container-list .container-logo .logo{
-	width: 300px;
-	height: 400px;
+	width: 470px;
+	height: 350px;
 	background-size: contain;
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/07/Wikipedia_logo_%28svg%29.svg");
 	background-repeat: no-repeat;
+	margin-top: 200px;
 
 }
-.container-list .list-left{
-	padding-top: 90px;
-}
-.container-list .list-left li{
-	margin: 30px;
+/** imagen*/
+
+/** listas*/
+main .container-list ul li {
+	list-style-type: none;
+	margin-top: 80px;
+
 }
 .container-list .list-right{
-	padding-top: 90px;
+	margin-left: 40px;
 }
+.container-list .list-left .uno{
+	margin-left: 80px;
+ 	}
+ .container-list .list-left .dos{
+ 	margin-left: 40px;
+ }
+.container-list .list-left .cuatro{
+ 	margin-left: 40px;
+ }
+.container-list .list-left .cinco{
+	margin-left: 80px;
+ }
+ /**listas de la izquierda*/
+ .container-list .list-right .siete{
+ 	margin-left: 40px
+ }
+  .container-list .list-right .ocho{
+  	margin-left: 80px;
+  }
+  .container-list .list-right .nueve{
+ 	margin-left: 40px
+ }
+
+ .container-search{
+ 	margin-top: 50px;
+ 	
+ 	display: flex;
+ }
+ .search{
+ 	margin: 0 auto;
+ 	display: flex;
+ }
+ .search .texto input{
+ 	width: 530px;
+ 	height: 50px;
+ 	border: 3px solid black;
+	outline: none;
+	border-color: #3366cc;
+ }
+ .container-search .search .boton input{
+ 	width: 100px;
+ 	height: 50px;
+ 	background-image: url("https://i.ibb.co/PFmbc8j/search.png");
+ 	background-repeat: no-repeat;
+ 	background-size: contain;
+ 	background-color: #3366cc;
+ 	border: none;
+ }
+ .container-language{
+ 	width: 450px;
+ 	height: 50px;
+ 	margin: 0 auto;
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+ }
+ .container-language .lenguage{
+ 	width: 450px;
+ 	height: 50px;
+ 	background-color: red;
+ 	border: 1px solid black;
+
+ }
